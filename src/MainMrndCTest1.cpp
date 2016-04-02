@@ -78,6 +78,14 @@ int main(){
 
 	//Test Sequences
 
+	int input[10] = { 1, 2, 3, 5, 10, 15, 30, 60 };
+	int ans[6] = { 0, 2, 3, 5, 5, 7 };
+	int len = 8,i;
+	int *res = find_sequences(input, len);
+
+	for (i = 0; i < 6; i++)
+		printf("%d\t", res[i]);
+
 	//Test Circular Linked Lists
 
     //Test Between Days
